@@ -1,4 +1,4 @@
-This is a bioinformatics based project which is done using the pattern matching techniques like edit distance(Leveinshtein distance) and hamming distance. It is already known that most of the diseases related to some of the genetic disorder which include down syndrone, cancer, covid virus and many. It is said that nearly 40% of diseases are related to the genetic disorders. <br />
+This is a bioinformatics based project which is done using the pattern matching technique(exact string matching) called as hamming distance. It is already known that most of the diseases related to some of the genetic disorder which include down syndrone, cancer, covid virus and many. It is said that nearly 40% of diseases are related to the genetic disorders. <br />
   Conceptually, genetic disorders comes into play when some mutations in a particular gene occurs which could be due to external environment, physical activities, habits and many others so, it is very important to know about the changes in the gene that leads to various diseases. In general, mutations can be of two types point and frame shift mutations.
 ## 1. Point Mutations: 
 As the name says that a point mutation is a type of mutation which is due to changes at a point in the gene. Substitution is one such type of mutation.  
@@ -23,7 +23,3 @@ let, <br />
 original gene = ATCGATGCTAGGCTGA**C**CAGTCCAAAA <br />
 Mutated gene  = ATCGATGCTAGGCTGACAGTCCAAAA<br />
 In the above example the mutation happens due to the deletion of the bolded nucleotide due to which the length of the gene is decreased and the frame is shifted backwards and as a result the protein codings will change as the codon pair changes. 
-
-
-# Consepts Used
-wd
