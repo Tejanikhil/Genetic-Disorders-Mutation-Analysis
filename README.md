@@ -6,7 +6,7 @@ As the name says that a point mutation is a type of mutation which is due to cha
 Mutations that are due to substitution of nucleotides i-e
 ------------------------
 let, 
-original gene = ATCGATGCTAGGCTGACCAGTCCAAAA
+original gene = ATCGATGCTAGGCTGACCAGTCCAAAA </b >
 Mutated gene = ATCG*C*TGCTAGGCTG*T*CCAGTCCAAAA
 In the above example the mutations occurs due to the replacement of nucleotides that are bolded
 
