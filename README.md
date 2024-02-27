@@ -1,25 +1,37 @@
-This is a bioinformatics based project which is done using the pattern matching technique(exact string matching) called as hamming distance. It is already known that most of the diseases related to some of the genetic disorder which include down syndrone, cancer, covid virus and many. It is said that nearly 40% of diseases are related to the genetic disorders. <br />
-  Conceptually, genetic disorders comes into play when some mutations in a particular gene occurs which could be due to external environment, physical activities, habits and many others so, it is very important to know about the changes in the gene that leads to various diseases. In general, mutations can be of two types point and frame shift mutations.
+# Bioinformatics Project: Genetic Disorders and Mutation Analysis
+
+This project utilizes pattern matching techniques, specifically the Hamming distance algorithm, to analyze genetic mutations associated with various diseases. It is well-established that many diseases, including Down syndrome, cancer, and viral infections like COVID-19, are linked to genetic disorders. Approximately 40% of diseases are attributed to genetic mutations.
+
+Genetic disorders typically arise from mutations in specific genes, which can be caused by external factors, lifestyle choices, and environmental influences. Understanding these genetic changes is crucial for diagnosing and treating various diseases. Mutations can generally be categorized into two types: point mutations and frameshift mutations.
+
 ## 1. Point Mutations: 
-As the name says that a point mutation is a type of mutation which is due to changes at a point in the gene. Substitution is one such type of mutation.  
-### i. Substitution mutation: 
-Mutations that are due to substitution of nucleotides i-e <br />
-let, <br />
-original gene = ATCGATGCTAGGCTGACCAGTCCAAAA <br />
-Mutated gene = ATCG*C*TGCTAGGCTG*T*CCAGTCCAAAA <br />
-In the above example the mutations occurs due to the replacement of nucleotides that are bolded <br />
+Point mutations involve changes at a single nucleotide position within a gene. One common type of point mutation is substitution.
+
+### i. Substitution Mutation: 
+Substitution mutations occur when one nucleotide is replaced by another. For example:
+
+Original gene: ATCGATGCTAGGCTGACCAGTCCAAAA  
+Mutated gene: ATCG*C*TGCTAGGCTG*T*CCAGTCCAAAA  
+
+In this example, the mutations are caused by the substitution of nucleotides, as indicated by the bolded characters.
 
 ## 2. Frameshift Mutations: 
-As the name says that the frame shift mutations are the type of mutations such that if happens the whole frame of the gene will be shifted which results in change in the whole protein coding sequence which is as shown below
+Frameshift mutations occur when the addition or deletion of nucleotides alters the reading frame of the gene, resulting in a change in the entire protein coding sequence.
 
-### i. Insertion mutation
-let, <br />
-original gene = ATCGATGCTAGGCTGACCAGTCCAAAA <br />
-Mutated gene = ATCGAT**G**GCTAGGC**C**TGACCAGTCCAAAA<br />
-In the above example the mutations occurs due to the addition of a new neucleotide in the sequence that are bolded which resulted in changing the length of the gene and the protein encodings. Like intitially GCT codes for proteinA then after mutation instead of GCT coding for proteinA GGC codes for proteinB and thsi continues to happen until the last codon<br />
+### i. Insertion Mutation:
+Insertion mutations involve the addition of one or more nucleotides into the gene sequence. For example:
 
-### ii. Deletion mutation
-let, <br />
-original gene = ATCGATGCTAGGCTGA**C**CAGTCCAAAA <br />
-Mutated gene  = ATCGATGCTAGGCTGACAGTCCAAAA<br />
-In the above example the mutation happens due to the deletion of the bolded nucleotide due to which the length of the gene is decreased and the frame is shifted backwards and as a result the protein codings will change as the codon pair changes. 
+Original gene: ATCGATGCTAGGCTGACCAGTCCAAAA  
+Mutated gene: ATCGAT**G**GCTAGGC**C**TGACCAGTCCAAAA  
+
+In this example, the bolded nucleotides represent the inserted sequence, which shifts the reading frame and alters the protein coding.
+
+### ii. Deletion Mutation:
+Deletion mutations involve the removal of one or more nucleotides from the gene sequence. For example:
+
+Original gene: ATCGATGCTAGGCTGA**C**CAGTCCAAAA  
+Mutated gene: ATCGATGCTAGGCTGACAGTCCAAAA  
+
+In this example, the bolded nucleotide is deleted, causing a shift in the reading frame and altering the protein coding.
+
+Understanding these mutations and their effects on gene expression and protein synthesis is essential for studying genetic disorders and developing effective treatments.
