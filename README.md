@@ -1,4 +1,4 @@
-# Bioinformatics Project: Genetic Disorders and Mutation Analysis
+# Bioinformatics Project
 
 This project utilizes pattern matching techniques, specifically the Hamming distance algorithm, to analyze genetic mutations associated with various diseases. It is well-established that many diseases, including Down syndrome, cancer, and viral infections like COVID-19, are linked to genetic disorders. Approximately 40% of diseases are attributed to genetic mutations.
 
